@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 240" fill="none">
+  <rect width="680" height="240" rx="16" fill="#0d1117"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="680" height="240" fill="url(#grid)"/>
+  
+  <!-- Solana logo stylized -->
+  <g transform="translate(60, 40)">
+    <rect x="5" y="5" width="110" height="110" rx="14" fill="#1a2332" stroke="#9945ff" stroke-width="2.5"/>
+    <!-- Three parallelogram bars (Solana style) -->
+    <path d="M25 35 L95 35 L85 50 L15 50 Z" fill="#9945ff" opacity="0.9"/>
+    <path d="M15 55 L85 55 L95 70 L25 70 Z" fill="#14f195" opacity="0.7"/>
+    <path d="M25 75 L95 75 L85 90 L15 90 Z" fill="#9945ff" opacity="0.5"/>
+    <!-- Magnifying glass -->
+    <circle cx="85" cy="95" r="12" fill="none" stroke="#e6edf3" stroke-width="2" opacity="0.4"/>
+    <line x1="93" y1="103" x2="102" y2="112" stroke="#e6edf3" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="210" y="80" font-family="'Segoe UI', system-ui, sans-serif" font-size="44" fill="#e6edf3" font-weight="700" letter-spacing="-1">SOL Wallet</text>
+  <text x="210" y="130" font-family="'Segoe UI', system-ui, sans-serif" font-size="44" fill="#9945ff" font-weight="700" letter-spacing="-1">Scanner</text>
+  
+  <text x="212" y="163" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#7d8590">Solana 钱包扫描 | 随机密钥生成 | 邮件通知</text>
+  
+  <g transform="translate(212, 180)">
+    <rect x="0" y="0" width="72" height="22" rx="11" fill="#1a2332" stroke="#9945ff" stroke-width="1"/>
+    <text x="36" y="15" font-family="monospace" font-size="10" fill="#9945ff" text-anchor="middle">Python</text>
+    <rect x="82" y="0" width="72" height="22" rx="11" fill="#1a2332" stroke="#14f195" stroke-width="1"/>
+    <text x="118" y="15" font-family="monospace" font-size="10" fill="#14f195" text-anchor="middle">Solders</text>
+    <rect x="164" y="0" width="68" height="22" rx="11" fill="#1a2332" stroke="#58a6ff" stroke-width="1"/>
+    <text x="198" y="15" font-family="monospace" font-size="10" fill="#58a6ff" text-anchor="middle">SMTP</text>
+  </g>
+</svg>
